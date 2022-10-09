@@ -1,0 +1,200 @@
+body,html{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(190, 135, 84);
+}
+.landingPage{
+    background-image: url("../images/istockphoto-1271527412-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar .logo{
+    color:rgb(190, 135, 84);
+    margin: 5px 30px;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.navbar .links{
+    float: right;
+    margin-left: auto;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color:rgb(105, 62, 6);
+    padding: 8px 10px;
+    margin: 0px 20px;
+    border: 1px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+.navbar .links a:last-child{
+    background-color: rgb(82, 40, 0);
+    border: 2px solid burlywood;
+    color: white;
+}
+.navbar a:hover{
+    background-color: rgb(251, 228, 207);
+    border: 1px solid burlywood;
+}
+.head{
+    margin: 50px;
+margin-top: 170px;
+width: 40%;
+}
+.head h1{
+    font-size: 140px;
+    font-weight: 700;
+    color: rgb(152, 75, 2);
+    margin: 0;
+    font-family:serif;
+    line-height: 100px;
+}
+.head h3{
+    font-size: 30px;
+    letter-spacing: 3px;
+   color: rgb(255, 255, 255);
+  
+}
+.bottom{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    bottom: 0;
+    margin-bottom: 40px;
+    margin: 10px;
+    text-align: center;
+    width: 90%;
+    color: brown;
+}
+.bottom label{
+    color: rgb(15, 11, 2);
+}
+.banner{
+    background-image: url("../images/d11a3b2d918524754af3a895f3c33f6b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+
+/* About us */
+.about{
+    text-align: justify;
+    margin: 20px;
+}
+.about h2{
+    font-size: 50px;
+    margin: 0;
+    color: rgb(38, 38, 38);
+}
+.about p{
+    color: rgb(55, 26, 1);
+    font-size: 20px;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    text-align: center;
+
+}
+.service{
+    background-color: rgb(80, 35, 0);
+    color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-width: 1px;
+    margin: 20px;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+    border: 2px solid wheat;
+}
+.service:hover{
+    box-shadow: -1px 2px 9px 4px rgba(0,0,0,0.27);
+-webkit-box-shadow: -1px 2px 9px 4px rgba(0,0,0,0.27);
+-moz-box-shadow: -1px 2px 9px 4px rgba(0,0,0,0.27);
+}
+#services{
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 8px 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+/* Contact Us */
+.form{
+    text-align: center;
+    background: rgb(83, 47, 1);
+    color: #EEE7CE;
+    margin: 20px;
+    padding: 30px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 5px 7px 15px rgb(15, 11, 2,0.5);
+}
+
+.form .input-field{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.form .input-field input{
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.form .input-field textarea{
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 5px;
+    resize: none;
+}
+
+.form #submitBtn{
+    padding: 10px 20px;
+    background: #EEE7CE;
+    color: #064439;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Potions</title>
+</head>
+<style>
+    body{
+        background-color: rgb(217, 177, 123);
+    }
+    .links a{
+        color: white;
+    }
+    h1{
+        color: wheat;
+        margin: 20px 200px;
+        margin-top: 90px;
+        font-size: 60px;
+        
+    }
+    .about,.services,#services{
+        margin: 20px 200px;
+    }
+    h3{
+        font-size: 60px;
+    }
+    img{
+        border-radius: 10px;
+    }
+</style>
+<body>
+    
+    <div class="banner">
+       <div class="navbar">
+        <div class="logo"><h2><b>POTIONS</b></h2></div>
+    
+    <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html">Get in touch</a>
+    </div>
+    </div>
+    <h1>Contact Us</h1>
+    </div>
+    <div class="about">
+        <h2>Dont hesitate to contact us</h2>
+        <p style="width: 100%;">We offer 24/7 hr service</p>
+        
+    </div>
+    <center>
+    <form class="form" method="post" id="form">
+
+        <h2>Contact Form</h2>
+
+        <div class="input-field">
+            <input name="name" id="name" placeholder="Name...">
+        </div>
+
+        <div class="input-field">
+            <input name="number" id="number" placeholder="Number...">
+        </div>
+
+        <div class="input-field">
+            <input name="email" id="email" placeholder="Email...">
+        </div>
+
+        <div class="input-field">
+            <textarea name="enquiry" id="enquiry" rows="6" placeholder="Enquiry..."></textarea>
+        </div>
+
+        <input type="submit" value="Submit" id="submitBtn">
+
+    </form>
+</center>
+    <script src="./js/validateEnquiry.js"></script>
+</body>
+
+</html>
